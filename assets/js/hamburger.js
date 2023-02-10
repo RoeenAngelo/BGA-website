@@ -45,7 +45,7 @@ let chris = new Player('Chris', 100, 60)
 let aaron = new Player('Aaron', 100, 60)
 let justin = new Player('Justin', 100, 60)
 let tim = new Player('Tim', 100, 60)
-let sam = new Player('Sam', 100, 60)
+let sam = new Player('Sam', 100, 200)
 let arvin = new Player('Arvin', 100, 60)
 let galvin = new Player('Galvin', 100, 60)
 let ezra = new Player('Ezra', 100, 60)
@@ -58,7 +58,7 @@ let james = new Player('James', 100, 60)
 let jason = new Player('Jason', 100, 60)
 let ronald = new Player('Ronald', 100, 60)
 let aldrich = new Player('Aldrich', 100, 60)
-let joe = new Player('Joe', 100, 60)
+let joe = new Player('Joe', 100, 500)
 
 let players = [ro, kyle, george, des, ed, pat, dayza, chris, aaron, justin, tim, sam, arvin, galvin, ezra, alan, niehmer, morris, jordan, daniel, james, jason, ronald, aldrich, joe]
 

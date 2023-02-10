@@ -3849,3 +3849,64 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Schedule */
+
+.event-container {
+	margin: 0 auto;
+}
+
+.event-container .event {
+	box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+	display: flex;
+	border-radius: 8px;
+	margin: 32px 0;
+}
+
+.event .event-left {
+	background-color: #222;
+	min-width: 82px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #eee;
+	padding: 8px 48px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 8px 0 0 8px;
+}
+
+event .event-left .date {
+	font-size: 56px;
+}
+
+.event .event-left .month {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.event .event-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+	font-size: 24px;
+	margin: 24px 0 10px 0;
+	text-transform: uppercase;
+}
+
+.event .event-right .event-time {
+	background-color: #fff8ba;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	padding: 8px;
+	border-radius: 16px;
+	margin: 20px 0;
+	font-size: 14px;
+}
