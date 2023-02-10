@@ -3866,7 +3866,7 @@ input, select, textarea {
 
 .event .event-left {
 	background-color: #222;
-	min-width: 82px;
+	width: 130px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3890,23 +3890,34 @@ event .event-left .date {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items:flex-start ;
 	padding: 0 24px;
 }
 
 .event .event-right h3.event-title {
-	font-size: 24px;
+	font-size: 28px;
 	margin: 24px 0 10px 0;
 	text-transform: uppercase;
+	font-weight: bold;
+}
+.event .event-right .event-description {
+	
+	font-size: 1.2rem;
 }
 
 .event .event-right .event-time {
 	background-color: #fff8ba;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	width: 100px;
 	padding: 8px;
 	border-radius: 16px;
 	margin: 20px 0;
 	font-size: 14px;
+}
+
+.event .event-right .event-time img {
+	height: 20px;
+	padding-right: 8px ;
 }
