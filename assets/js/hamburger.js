@@ -42,10 +42,25 @@ let ed = new Player('Ed', 100, 60)
 let pat = new Player('Pat', 100, 60)
 let dayza = new Player('Dayza', 100, 60)
 let chris = new Player('Chris', 100, 60)
-let ron = new Player('Ron', 100, 60)
 let aaron = new Player('Aaron', 100, 60)
+let justin = new Player('Justin', 100, 60)
+let tim = new Player('Tim', 100, 60)
+let sam = new Player('Sam', 100, 60)
+let arvin = new Player('Arvin', 100, 60)
+let galvin = new Player('Galvin', 100, 60)
+let ezra = new Player('Ezra', 100, 60)
+let alan = new Player('Alan', 100, 60)
+let niehmer = new Player('Niehmer', 100, 60)
+let morris = new Player('Morris', 100, 60)
+let jordan = new Player('Jordan', 100, 60)
+let daniel = new Player('Daniel Lee', 100, 60)
+let james = new Player('James', 100, 60)
+let jason = new Player('Jason', 100, 60)
+let ronald = new Player('Ronald', 100, 60)
+let aldrich = new Player('Aldrich', 100, 60)
+let joe = new Player('Joe', 100, 60)
 
-let players = [ro, kyle, george, des, ed, pat, dayza, chris, ron, aaron]
+let players = [ro, kyle, george, des, ed, pat, dayza, chris, aaron, justin, tim, sam, arvin, galvin, ezra, alan, niehmer, morris, jordan, daniel, james, jason, ronald, aldrich, joe]
 
 const totalPoints = players.sort((a,b) => b.total - a.total)
 
@@ -150,10 +165,30 @@ totalPoints.forEach((player, i) => {
     document.querySelector('#pp20').innerText = totalPoints[19]._previousPoints
     document.querySelector('#tp20').innerText = totalPoints[19].total
 
-    document.querySelector('#rank3').innerText = 3
-    document.querySelector('#name3').innerText = totalPoints[2].name
-    document.querySelector('#pp3').innerText = totalPoints[2]._previousPoints
-    document.querySelector('#tp3').innerText = totalPoints[2].total
+    document.querySelector('#rank21').innerText = 21
+    document.querySelector('#name21').innerText = totalPoints[20].name
+    document.querySelector('#pp21').innerText = totalPoints[20]._previousPoints
+    document.querySelector('#tp21').innerText = totalPoints[20].total
+
+    document.querySelector('#rank22').innerText = 22
+    document.querySelector('#name22').innerText = totalPoints[21].name
+    document.querySelector('#pp22').innerText = totalPoints[21]._previousPoints
+    document.querySelector('#tp22').innerText = totalPoints[21].total
+
+    document.querySelector('#rank23').innerText = 23
+    document.querySelector('#name23').innerText = totalPoints[22].name
+    document.querySelector('#pp23').innerText = totalPoints[22]._previousPoints
+    document.querySelector('#tp23').innerText = totalPoints[22].total
+
+    document.querySelector('#rank24').innerText = 24
+    document.querySelector('#name24').innerText = totalPoints[23].name
+    document.querySelector('#pp24').innerText = totalPoints[23]._previousPoints
+    document.querySelector('#tp24').innerText = totalPoints[23].total
+
+    document.querySelector('#rank25').innerText = 25
+    document.querySelector('#name25').innerText = totalPoints[24].name
+    document.querySelector('#pp25').innerText = totalPoints[24]._previousPoints
+    document.querySelector('#tp25').innerText = totalPoints[24].total
 
 
 })
