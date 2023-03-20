@@ -67,6 +67,7 @@ const totalPoints = players.sort((a,b) => b.total - a.total)
 totalPoints.forEach((player, i) => {
     document.querySelector('#rank1').innerText = 1
     document.querySelector('#name1').innerText = totalPoints[0].name
+    document.querySelector('#name1').setAttribute('href', 'profile.html')
     document.querySelector('#pp1').innerText = totalPoints[0]._previousPoints
     document.querySelector('#tp1').innerText = totalPoints[0].total
 
