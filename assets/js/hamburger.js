@@ -34,6 +34,7 @@ class Player {
 
 // Players
 
+<<<<<<< HEAD
 let ro = new Player('Ro', 0, 0)
 let kyle = new Player('Kyle',0, 0)
 let george = new Player('George',0, 0)
@@ -59,6 +60,33 @@ let jason = new Player('Jason', 0, 0)
 let ronald = new Player('Ronald', 0, 0)
 let aldrich = new Player('Aldrich', 0, 0)
 let joe = new Player('Joe', 0, 0)
+=======
+let ro = new Player('Ro', 0, 54)
+let kyle = new Player('Kyle', 0, 37.167)
+let george = new Player('George', 0, 162.5)
+let des = new Player('Des', 0, 67.5)
+let ed = new Player('Ed', 0, 51)
+let pat = new Player('Pat', 0, 100)
+let dayza = new Player('Dayza', 0, 77.5)
+let chris = new Player('Chris', 0, 58.5)
+let aaron = new Player('Aaron', 0, 500)
+let justin = new Player('Justin', 0, 87.5)
+let tim = new Player('Tim', 0, 37.167)
+let sam = new Player('Sam', 0, 77.5)
+let arvin = new Player('Arvin', 0, 87.5)
+let galvin = new Player('Galvin', 0, 47)
+let ezra = new Player('Ezra', 0, 37.167)
+let alan = new Player('Alan', 0, 49)
+let niehmer = new Player('Niehmer', 0, 162.5)
+let morris = new Player('Morris', 0, 300)
+let jordan = new Player('Jordan', 0, 58.5)
+let daniel = new Player('Daniel Lee', 0, 67.5)
+let james = new Player('James', 0, 45)
+let jason = new Player('Jason', 0, 54)
+let ronald = new Player('Ronald', 0, 41)
+let aldrich = new Player('Aldrich', 0, 43)
+let joe = new Player('Joe', 0, 110)
+>>>>>>> gh-pages
 
 let players = [ro, kyle, george, des, ed, pat, dayza, chris, aaron, justin, tim, sam, arvin, galvin, ezra, alan, niehmer, morris, jordan, daniel, james, jason, ronald, aldrich, joe]
 

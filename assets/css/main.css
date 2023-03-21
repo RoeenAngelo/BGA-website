@@ -3921,3 +3921,36 @@ event .event-left .date {
 	height: 20px;
 	padding-right: 8px ;
 }
+
+
+/* Results */
+
+.results-card {
+	background-color: white;
+}
+
+.results-card-image {
+	margin-bottom: 15px;
+	padding: 20em;
+	background-repeat: no-repeat;
+	/* outline: 2px solid black; */
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+	background-color: white;
+	background-size: 90%;
+	background-position: center;
+}
+
+.results-card-image-1 {
+	background-image: url(/images/pnr4.jpg);
+}
+
+.results-card h2 {
+	font-weight: bold;
+}
+
+.results-card h3 {
+	font-weight: 500;
+}
