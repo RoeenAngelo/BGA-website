@@ -3925,7 +3925,7 @@ event .event-left .date {
 
 /* Results */
 
-.results-card {
+/* .results-card {
 	background-color: white;
 }
 
@@ -3933,7 +3933,7 @@ event .event-left .date {
 	margin-bottom: 15px;
 	padding: 20em;
 	background-repeat: no-repeat;
-	/* outline: 2px solid black; */
+	outline: 2px solid black;
 	border-radius: 8px;
 	display: flex;
 	justify-content: center;
@@ -3953,7 +3953,7 @@ event .event-left .date {
 
 .results-card h3 {
 	font-weight: 500;
-}
+} */
 
 .results-logo img {
 	display: block;
