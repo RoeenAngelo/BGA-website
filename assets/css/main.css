@@ -3957,7 +3957,9 @@ event .event-left .date {
 
 .results-logo img {
 	display: block;
-	margin: 0 auto;
 	max-width: 100%;
 	border-radius: 8px;
+	margin-bottom: 15px;
 }
+
+
