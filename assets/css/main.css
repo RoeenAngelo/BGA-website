@@ -3371,7 +3371,7 @@ input, select, textarea {
 			#nav {
 				display: flex;
 				justify-content: flex-end;
-				flex
+				width: 100%;
 			}
 
             .nav-menu {
@@ -3395,6 +3395,7 @@ input, select, textarea {
                 left: 0;
             }
         }
+	
 
 
 /* Main */
