@@ -3891,7 +3891,7 @@ event .event-left .date {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items:flex-start ;
+	align-items: flex-start ;
 	padding: 0 24px;
 }
 
@@ -3900,10 +3900,12 @@ event .event-left .date {
 	margin: 24px 0 10px 0;
 	text-transform: uppercase;
 	font-weight: bold;
+	text-align: left;
 }
 .event .event-right .event-description {
 	
 	font-size: 1.2rem;
+	text-align: left;
 }
 
 .event .event-right .event-time {
@@ -3921,6 +3923,32 @@ event .event-left .date {
 .event .event-right .event-time img {
 	height: 20px;
 	padding-right: 8px ;
+}
+
+@media screen and (max-width: 480px) {
+	.event .event-left {
+		
+		width: 100px;
+		padding: 6px 40px;
+	}
+
+	.event .event-right h3.event-title {
+		font-size: 22px;
+		margin: 20px 0 8px 0;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.event .event-right .event-description {
+	
+		font-size: 1.1rem;
+		text-align: left;
+	}
+	.event .event-right .event-time img {
+		height: 15px;
+		padding-right: 6px ;
+	}
+
 }
 
 
