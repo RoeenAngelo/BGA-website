@@ -3226,6 +3226,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		margin: 0;
 		
 	}
 
@@ -3340,6 +3341,7 @@ input, select, textarea {
 		.hamburger {
 			display: none;
 			cursor: pointer;
+
 		}
 
 		.bar {
@@ -3377,7 +3379,7 @@ input, select, textarea {
             .nav-menu {
 				display: flex;
                 position: fixed;
-                left: -100%;
+                left: -1000%;
                 /* top: 70px; */
 				
                 flex-direction: column;
@@ -3395,8 +3397,12 @@ input, select, textarea {
                 left: 0;
             }
         }
-	
 
+		/* @media screen and (max-width: 480px) {
+			#nav {
+				min-width: calc(100%-2em) ;
+			}
+		} */
 
 /* Main */
 
